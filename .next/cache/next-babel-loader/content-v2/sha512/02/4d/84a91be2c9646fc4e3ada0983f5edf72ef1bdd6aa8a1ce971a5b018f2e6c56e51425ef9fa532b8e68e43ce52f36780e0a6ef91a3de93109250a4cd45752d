@@ -1,1 +1,0 @@
-{"ast":null,"code":"var theme = {\n  colors: {\n    white: \"#FFFFFF\",\n    grey: \"#363636\",\n    yellow: \"#FFC702\"\n  },\n  device: {\n    desktop: \"@media screen and (max-width: 960px)\",\n    mobile: \"@media screen and (max-width: 768px)\"\n  }\n};\nexport default theme;","map":null,"metadata":{},"sourceType":"module"}

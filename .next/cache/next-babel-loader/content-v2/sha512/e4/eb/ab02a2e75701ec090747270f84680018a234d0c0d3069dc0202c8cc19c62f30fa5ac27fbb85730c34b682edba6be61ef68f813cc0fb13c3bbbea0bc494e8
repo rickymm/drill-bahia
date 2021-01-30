@@ -1,1 +1,0 @@
-{"ast":null,"code":"var links = [{\n  title: \"Sobre\",\n  to: \"about\"\n}, {\n  title: \"Nossos negócios\",\n  to: \"services\"\n}, {\n  title: \"Clientes\",\n  to: \"clients\"\n}, {\n  title: \"Contatos\",\n  to: \"contact\"\n}];\nexport default links;","map":null,"metadata":{},"sourceType":"module"}
