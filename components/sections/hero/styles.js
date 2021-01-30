@@ -53,8 +53,16 @@ export const StyledLink = styled(Link)`
 `;
 
 export const ArrowDown = styled(FaArrowDown)`
+  min-height: 20px;
+  min-width: 20px;
+
   &:hover {
     cursor: pointer;
+  }
+
+  ${theme.device.desktop} {
+    height: 30px;
+    width: 30px;
   }
 `;
 
@@ -68,7 +76,7 @@ export const IconContainer = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 
   &:hover {
     animation: ${Bounce} 1.6s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);

@@ -16,16 +16,16 @@ export const Info = styled.div`
   padding: 10px 20px;
 
   &:not(:last-of-type) {
-    border-bottom: 1px solid ${theme.colors.grey}10;
-    margin-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: none;
+    border-right: 1px solid ${theme.colors.grey}10;
   }
 
-  ${theme.device.desktop} {
+  ${theme.device.mobile} {
     &:not(:last-of-type) {
-      margin-bottom: 0px;
-      margin-right: 20px;
-      border-bottom: none;
-      border-right: 1px solid ${theme.colors.grey}10;
+      border-bottom: 1px solid ${theme.colors.grey}10;
+      border-right: none;
+      margin-bottom: 20px;
     }
   }
 `;

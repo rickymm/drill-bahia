@@ -3,17 +3,16 @@ import theme from "../../../styles/theme";
 
 export const Container = styled.div`
   padding: 60px;
-  display: grid;
-  grid-template-areas: "image description";
+  display: flex;
 
   ${theme.device.mobile} {
-    display: flex;
     flex-direction: column;
+    padding: 20px;
   }
 `;
 
 export const ImageContainer = styled.div`
-  grid-area: "image";
+  max-width: 700px;
   ${theme.device.mobile} {
     margin-bottom: 20px;
   }
@@ -25,8 +24,11 @@ export const Image = styled.img`
 `;
 
 export const DescriptionContainer = styled.div`
-  grid-area: "description";
   padding-left: 20px;
+
+  ${theme.device.mobile} {
+    padding: 0 20px;
+  }
 `;
 
 export const Title = styled.h1`
