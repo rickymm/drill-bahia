@@ -16,16 +16,16 @@ const MobileSidebar = ({ isOpen, toggle }) => {
       </IconContainer>
       <div>
         <SidebarMenu>
-          {links.map((link, index) => (
+          {links.map(({ to, title }, index) => (
             <SidebarLink
               key={index}
-              to={link.to}
+              to={to}
               onClick={toggle}
               spy={true}
               smooth={true}
               duration={500}
             >
-              {link.title}
+              {title}
             </SidebarLink>
           ))}
         </SidebarMenu>

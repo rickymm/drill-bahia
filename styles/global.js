@@ -2,8 +2,10 @@ import { createGlobalStyle } from "styled-components";
 import theme from "./theme";
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-  
+  * { 
+    -webkit-font-smoothing: antialiased;
+  }
+
   body {
     padding: 0;
     margin: 0;

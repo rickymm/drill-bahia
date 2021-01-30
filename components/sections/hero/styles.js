@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import { FaArrowDown } from "react-icons/fa";
 import theme from "../../../styles/theme";
+import Link from "../../link";
 
 export const HeroContainer = styled.div`
   height: 92vh;
@@ -24,11 +25,31 @@ export const HeroInfo = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
 `;
 
-export const Description = styled.div`
+export const Description = styled.p`
+  font-size: 1.4rem;
+  font-weight: 400;
   text-align: center;
+`;
+
+export const StyledLink = styled(Link)`
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 1px solid ${theme.colors.yellow};
+  font-weight: 600;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+  color: ${theme.colors.yellow};
+  text-transform: uppercase;
+
+  :hover {
+    cursor: pointer;
+    color: ${theme.colors.white};
+    background-color: ${theme.colors.yellow};
+  }
 `;
 
 export const ArrowDown = styled(FaArrowDown)`

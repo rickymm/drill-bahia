@@ -5,7 +5,7 @@ const theme = {
     yellow: "#FFC702",
   },
   device: {
-    desktop: "@media screen and (max-width: 960px)",
+    desktop: "@media screen and (min-width: 960px)",
     mobile: "@media screen and (max-width: 768px)",
   },
 };

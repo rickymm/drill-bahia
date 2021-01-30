@@ -1,29 +1,26 @@
 import React from "react";
-import Head from "next/head";
-import Navbar from "../components/navbar";
 import GlobalStyles from "../styles/global";
+import Head from "../components/head";
+import Navbar from "../components/navbar";
 import Hero from "../components/sections/hero";
+import Infos from "../components/sections/infos";
+import About from "../components/sections/about";
 
 const Home = () => {
   return (
     <main>
-      <Head>
-        <title>Drill Bahia</title>
-        <meta
-          name="description"
-          content="Empresa especializada em perfuraçōes MND."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      </Head>
+      <Head />
       <GlobalStyles />
       <Navbar />
       <section name="main">
         <Hero />
       </section>
-      <div id="about" style={{ display: "grid", height: "100vh" }}>
-        <h1>Teste 1</h1>
-      </div>
+      <section name="infos">
+        <Infos />
+      </section>
+      <section name="about">
+        <About />
+      </section>
     </main>
   );
 };

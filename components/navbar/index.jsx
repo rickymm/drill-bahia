@@ -24,10 +24,10 @@ const Navbar = () => {
         <NavContainer>
           <NavLogo to="/">Drill Bahia</NavLogo>
           <NavMenu>
-            {links.map((link, index) => (
+            {links.map(({ to, title }, index) => (
               <NavItem key={index}>
-                <NavLink to={link.to} spy={true} smooth={true} duration={500}>
-                  {link.title}
+                <NavLink to={to} spy={true} smooth={true} duration={500}>
+                  {title}
                 </NavLink>
               </NavItem>
             ))}

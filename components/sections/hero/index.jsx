@@ -4,6 +4,7 @@ import {
   HeroInfo,
   Title,
   Description,
+  StyledLink,
   IconContainer,
   ArrowDown,
 } from "./styles";
@@ -15,6 +16,7 @@ const Hero = () => {
       <HeroInfo>
         <Title>Drill Bahia</Title>
         <Description>Empresa especializada em perfuraçōes MND</Description>
+        <StyledLink to="contact">Fale conosco</StyledLink>
       </HeroInfo>
       <IconContainer>
         <Link to="about">
