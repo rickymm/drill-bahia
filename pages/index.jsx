@@ -22,7 +22,7 @@ const Home = () => {
         <Hero />
       </section>
       <div id="about" style={{ display: "grid", height: "100vh" }}>
-        <h1>Teste</h1>
+        <h1>Teste 1</h1>
       </div>
     </main>
   );
