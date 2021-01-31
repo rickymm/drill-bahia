@@ -12,7 +12,8 @@ export const Container = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  max-width: 700px;
+  width: 100%;
+  max-width: 650px;
   ${theme.device.mobile} {
     margin-bottom: 20px;
   }
@@ -36,6 +37,8 @@ export const Title = styled.h1`
 `;
 
 export const Description = styled.p`
+  text-align: justify;
+
   div {
     margin-top: 10px;
   }

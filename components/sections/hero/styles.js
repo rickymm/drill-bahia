@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { FaArrowDown } from "react-icons/fa";
+import { IoIosArrowRoundDown } from "react-icons/io";
 import theme from "../../../styles/theme";
 import Link from "../../link";
 
@@ -52,17 +52,12 @@ export const StyledLink = styled(Link)`
   }
 `;
 
-export const ArrowDown = styled(FaArrowDown)`
-  min-height: 20px;
-  min-width: 20px;
+export const ArrowDown = styled(IoIosArrowRoundDown)`
+  height: 40px;
+  width: 40px;
 
   &:hover {
     cursor: pointer;
-  }
-
-  ${theme.device.desktop} {
-    height: 30px;
-    width: 30px;
   }
 `;
 

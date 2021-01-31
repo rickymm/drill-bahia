@@ -6,13 +6,13 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  background: ${theme.colors.white};
-  font-size: 1rem;
   position: sticky;
   top: 0;
-  z-index: 10;
+  height: 80px;
+  font-size: 1rem;
+  background: ${theme.colors.white};
   border-bottom: 1px solid ${theme.colors.grey}20;
+  z-index: 10;
 
   ${theme.device.desktop} {
     transition: 0.8s all ease;

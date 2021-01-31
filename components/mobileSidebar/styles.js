@@ -13,7 +13,7 @@ export const SidebarContainer = styled.aside`
   display: grid;
   align-items: center;
   right: 0;
-  transition: 0.8s ease-in-out;
+  transition: 0.4s ease-in-out;
   right: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   box-shadow: -7px 1px 10px #0000000d;
