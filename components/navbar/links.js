@@ -1,15 +1,15 @@
 const links = [
   {
+    title: "Nossos negócios",
+    to: "business",
+  },
+  {
     title: "Sobre",
     to: "about",
   },
   {
-    title: "Nossos negócios",
-    to: "services",
-  },
-  {
-    title: "Clientes",
-    to: "clients",
+    title: "Parceiros",
+    to: "partners",
   },
   {
     title: "Contatos",

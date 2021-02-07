@@ -31,7 +31,21 @@ export const NavContainer = styled.div`
 `;
 
 export const NavLogo = styled(Link)`
+  margin-top: 15px;
   justify-self: flex-start;
+
+  .hide {
+    ${theme.device.mobile} {
+      &-mobile {
+        display: none;
+      }
+    }
+    ${theme.device.desktop} {
+      &-desktop {
+        display: none;
+      }
+    }
+  }
 `;
 
 export const NavMenu = styled.ul`

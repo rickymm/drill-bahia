@@ -22,7 +22,22 @@ const Navbar = () => {
       <MobileSidebar isOpen={isOpen} toggle={toggle} />
       <Nav>
         <NavContainer>
-          <NavLogo to="/">Drill Bahia</NavLogo>
+          <NavLogo to="/">
+            <img
+              className="hide-mobile"
+              src="./image/drill-bahia.png"
+              alt="Drill Bahia"
+              height="200px"
+              width="250px"
+            />
+            <img
+              className="hide-desktop"
+              src="./image/favicon.ico"
+              alt="Drill Bahia"
+              height="50px"
+              width="50px"
+            />
+          </NavLogo>
           <NavMenu>
             {links.map(({ to, title }, index) => (
               <NavItem key={index}>

@@ -36,12 +36,9 @@ export const CloseIcon = styled(FaTimes)`
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 80px);
+  grid-template-rows: repeat(4, 80px);
   text-align: center;
-
-  ${theme.device.mobile} {
-    grid-template-rows: repeat(6, 60px);
-  }
+  padding: 0;
 `;
 
 export const SidebarLink = styled(LinkS)`

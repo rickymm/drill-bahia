@@ -15,11 +15,11 @@ const Hero = () => {
     <HeroContainer>
       <HeroInfo>
         <Title>Drill Bahia</Title>
-        <Description>Empresa especializada em perfuraçōes MND</Description>
+        <Description>Empresa especializada em furo direcional MND</Description>
         <StyledLink to="contact">Fale conosco</StyledLink>
       </HeroInfo>
       <IconContainer>
-        <Link to="about">
+        <Link to="business">
           <ArrowDown />
         </Link>
       </IconContainer>

@@ -21,12 +21,12 @@ const About = () => {
           facilis pariatur animi, nemo eveniet est aliquam hic cumque ea,
           placeat ratione sit voluptatem id ullam. Provident praesentium
           repudiandae quod sed.
-          <div>
+          <span>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Consectetur facilis pariatur animi, nemo eveniet est aliquam hic
             cumque ea, placeat ratione sit voluptatem id ullam. Provident
             praesentium repudiandae quod sed.
-          </div>
+          </span>
         </Description>
       </DescriptionContainer>
     </Container>

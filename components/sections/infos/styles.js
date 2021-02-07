@@ -3,8 +3,8 @@ import theme from "../../../styles/theme";
 
 export const Container = styled.div`
   display: flex;
-  padding: 30px 50px;
-  background-color: #fafafa;
+  padding: ${theme.containerPadding};
+  background-color: ${theme.colors.greyLight};
 
   ${theme.device.mobile} {
     flex-direction: column;
@@ -14,6 +14,7 @@ export const Container = styled.div`
 
 export const Info = styled.div`
   padding: 10px 20px;
+  text-align: ${({ align }) => align};
 
   &:not(:last-of-type) {
     margin-right: 20px;
@@ -22,6 +23,7 @@ export const Info = styled.div`
   }
 
   ${theme.device.mobile} {
+    text-align: center;
     &:not(:last-of-type) {
       border-bottom: 1px solid ${theme.colors.grey}10;
       border-right: none;

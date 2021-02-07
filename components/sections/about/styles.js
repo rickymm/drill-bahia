@@ -2,7 +2,7 @@ import styled from "styled-components";
 import theme from "../../../styles/theme";
 
 export const Container = styled.div`
-  padding: 60px;
+  padding: ${theme.containerPadding};
   display: flex;
 
   ${theme.device.mobile} {
@@ -12,9 +12,10 @@ export const Container = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  width: 100%;
-  max-width: 650px;
+  width: 50%;
+  max-width: 750px;
   ${theme.device.mobile} {
+    width: 100%;
     margin-bottom: 20px;
   }
 `;
@@ -25,10 +26,12 @@ export const Image = styled.img`
 `;
 
 export const DescriptionContainer = styled.div`
+  width: 50%;
   padding-left: 20px;
 
   ${theme.device.mobile} {
-    padding: 0 20px;
+    width: 100%;
+    padding: 0;
   }
 `;
 

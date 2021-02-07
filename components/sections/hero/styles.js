@@ -15,6 +15,17 @@ export const HeroContainer = styled.div`
 
   background-image: url("../../../image/hero-bg.png");
   background-size: cover;
+
+  /* &::after {
+    content: " ";
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    background-image: url("../../../image/v-element.svg");
+    background-size: cover;
+  } */
 `;
 
 export const HeroInfo = styled.div`
